@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|Merriweather");
+:root {
+  --logo-dimension: 125px;
+  --logo-size: 2.25rem;
+  --logo-padding: 4px;
+  --border-color: #ffa500;
+}
+
+.logo-container {
+  width: var(--logo-dimension);
+  height: var(--logo-dimension);
+  margin: auto;
+}
+
+.logo-text {
+  height: calc(var(--logo-dimension) / 2);
+  width: var(--logo-dimension);
+  background-color: transparent;
+  line-height: calc(var(--logo-dimension) / 2);
+  display: block;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-size: var(--logo-size);
+}
+
+.text-top,
+.text-bottom {
+  display: block;
+}
+
+.text-top {
+  border-top-style: solid;
+  border-top-color: var(--border-color);
+  border-top-width: var(--logo-padding);
+  border-left-style: solid;
+  border-left-color: var(--border-color);
+  border-left-width: var(--logo-padding);
+  padding-left: calc(var(--logo-dimension) / 2);
+}
+
+.text-bottom {
+  border-bottom-style: solid;
+  border-bottom-color: var(--border-color);
+  border-bottom-width: var(--logo-padding);
+  border-right-style: solid;
+  border-right-color: var(--border-color);
+  border-right-width: var(--logo-padding);
+}
+
+.logo-text-bottom {
+  position: absolue;
+  margin-left: calc(-1 * var(--logo-dimension) / 2 + var(--logo-padding));
+}
+
+body {
+  background: #292929;
+  perspective: 1000px;
+  display: flex;
+  height: 100vh;
+  font-family: "Merriweather", serif;
+}
+
+.card {
+  pointer-events: none;
+  transform: translateZ(0);
+  padding: 30px;
+  background: white;
+  border-radius: 5px;
+  width: 350px;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.card .card-content {
+  margin: auto;
+  text-align: center;
+}
