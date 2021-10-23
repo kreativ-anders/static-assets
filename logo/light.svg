@@ -1,36 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93.75" height="93.75" version="1.0">
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="197.636" version="1.2" viewBox="0 0 225 177.873">
   <style>
-	use {
-	  fill: #fff;
-	}
+    @import url('https://fonts.googleapis.com/css?family=Oswald');
   </style>
-  <defs>
-    <path d="M.875-12.672h1.672v7.547l2.437-3.906h1.75L4.61-5.5 6.672 0H5L3.312-4.625l-.765 1.156v3.453H.875Zm0 0" id="a"/>
-    <path d="M.89-9.031h1.672v1.281c.313-.508.63-.867.954-1.078.332-.207.68-.313 1.046-.313.094 0 .18.008.266.016v1.844a2.654 2.654 0 0 0-.922-.188c-.273 0-.515.07-.734.203-.211.125-.414.352-.61.672V0H.891Zm0 0" id="b"/>
-    <path d="M3.344.125c-.7 0-1.242-.129-1.625-.39-.387-.27-.657-.665-.813-1.188C.75-1.973.672-2.648.672-3.484v-2.063c0-1.25.191-2.16.578-2.734.395-.582 1.094-.875 2.094-.875.726 0 1.273.152 1.64.453.375.305.618.73.735 1.281.125.543.187 1.277.187 2.203v.735H2.344v1.812c0 .555.078.953.234 1.203.164.242.426.36.781.36.352 0 .594-.118.72-.36.124-.25.187-.625.187-1.125v-.547H5.89v.344c0 .95-.204 1.672-.61 2.172-.406.5-1.054.75-1.937.75Zm.922-5.516v-.812c0-.613-.063-1.05-.188-1.313-.117-.27-.367-.406-.75-.406-.273 0-.48.063-.625.188-.137.125-.23.336-.281.625-.055.28-.078.695-.078 1.234v.484Zm0 0" id="c"/>
-    <path d="M2.469.125a1.61 1.61 0 0 1-.938-.297 2.006 2.006 0 0 1-.64-.781A2.291 2.291 0 0 1 .656-1.97c0-.707.149-1.281.453-1.718a3.35 3.35 0 0 1 1.157-1.063c.468-.258 1.117-.555 1.953-.89v-.641c0-.594-.063-1.008-.188-1.25-.117-.25-.355-.375-.718-.375-.637 0-.954.43-.954 1.281v.453L.703-6.234c.02-1 .25-1.735.688-2.204.437-.476 1.113-.718 2.03-.718.864 0 1.49.242 1.876.719.394.468.594 1.183.594 2.14v4.125c0 .68.05 1.402.156 2.172H4.516a16.32 16.32 0 0 1-.22-1.328c-.124.406-.343.75-.655 1.031-.305.281-.696.422-1.172.422Zm.656-1.438c.219 0 .43-.082.64-.25.208-.175.36-.343.454-.5v-2.562a9.5 9.5 0 0 0-1.047.656 2.64 2.64 0 0 0-.61.625 1.547 1.547 0 0 0-.234.86c0 .375.067.668.203.875.133.199.332.296.594.296Zm0 0" id="d"/>
-    <path d="M3.25.125c-1.305 0-1.953-.719-1.953-2.156v-5.89H.344v-1.11h.953v-2.64h1.672v2.64h1.453v1.11H2.969v5.78c0 .368.054.621.172.766.113.148.332.219.656.219.207 0 .41-.016.61-.047V.03A7.873 7.873 0 0 1 3.25.125Zm0 0" id="e"/>
-    <path d="M.953-12.125h1.672v1.75H.953Zm0 3.094h1.672V0H.953Zm0 0" id="f"/>
-    <path d="M.234-9.031h1.688l1.11 7.265L4.155-9.03H5.78L4.063 0H2.015Zm0 0" id="g"/>
-    <path d="M.844-9.031h1.672v.89c.718-.675 1.453-1.015 2.203-1.015.488 0 .836.18 1.047.531.207.355.312.793.312 1.313V0H4.406v-6.828c0-.344-.054-.598-.156-.766-.105-.164-.293-.25-.563-.25-.335 0-.726.188-1.171.563V0H.844Zm0 0" id="h"/>
-    <path d="M2.938.125c-.782 0-1.356-.281-1.72-.844-.366-.57-.546-1.515-.546-2.828v-1.75c0-1.195.156-2.14.469-2.828.32-.688.906-1.031 1.75-1.031.53 0 1.03.234 1.5.703v-4.203h1.671V0H4.391v-.578c-.438.469-.922.703-1.454.703Zm.421-1.313c.332 0 .676-.113 1.032-.343v-5.922c-.387-.258-.743-.39-1.063-.39-.656 0-.984.632-.984 1.89v2.547c0 .73.066 1.281.203 1.656.133.375.406.563.812.563Zm0 0" id="i"/>
-    <path d="M2.938.125c-.731 0-1.325-.227-1.782-.688C.707-1.02.453-1.633.391-2.405l1.39-.422c.082.586.223 1.015.422 1.297.207.281.5.422.875.422.29 0 .516-.082.672-.25.164-.176.25-.41.25-.704 0-.257-.059-.492-.172-.703a2.473 2.473 0 0 0-.562-.64L1.719-4.734a3.71 3.71 0 0 1-.828-.954C.703-6.03.609-6.444.609-6.938c0-.695.207-1.238.625-1.625.414-.394.985-.593 1.704-.593.687 0 1.222.226 1.609.672.394.437.625 1.007.687 1.703L4.11-6.36c-.074-.508-.195-.895-.359-1.157-.168-.27-.418-.406-.75-.406-.273 0-.492.09-.656.266A.965.965 0 0 0 2.109-7c0 .336.149.637.454.906l1.593 1.469c.407.375.719.746.938 1.11.226.367.343.808.343 1.328 0 .75-.226 1.324-.671 1.718-.45.399-1.059.594-1.829.594Zm0 0" id="j"/>
-  </defs>
-  <path transform="matrix(0 2.26772 -2.51163 0 21.554 18.596)" fill="none" d="M0 0h12.57" stroke="orange"/>
-  <path transform="matrix(0 2.26772 -2.51163 0 71.983 46.877)" fill="none" d="M0 0h12.57" stroke="orange"/>
-  <path transform="matrix(2.25251 0 0 2.51163 20.796 74.396)" fill="none" d="M0 0h23.31" stroke="orange"/>
-  <path transform="matrix(2.25251 0 0 2.51163 20.796 19.85)" fill="none" d="M0 0h23.31" stroke="orange"/>
-  <use x="2.124" y="65.402" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#a" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
-  <use x="8.828" y="65.402" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#b" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
-  <use x="13.843" y="65.402" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#c" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
-  <use x="20.421" y="65.402" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#d" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
-  <use x="27.077" y="65.402" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#e" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
-  <use x="31.89" y="65.402" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#f" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
-  <use x="35.468" y="65.402" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#g" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
-  <use x="53.303" y="39.812" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#d" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
-  <use x="59.959" y="39.812" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#h" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
-  <use x="66.818" y="39.812" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#i" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
-  <use x="73.725" y="39.812" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#c" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
-  <use x="80.303" y="39.812" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#b" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
-  <use x="85.318" y="39.812" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#j" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
+  <g fill="none" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel">
+    <path fill="#f5a000" d="M58.38 30.355h108.485v4.339H58.38v-4.34"/>
+    <path fill="#f5a000" d="M58.38 30.355h4.34V89.66h-4.34V30.355m0 112.824h108.485v4.34H58.38v-4.34"/>
+    <path fill="#f5a000" d="M162.526 89.66h4.34v57.858h-4.34V89.66"/>
+    <text xml:space="preserve" x="603.5" y="37" font-family="Oswald" font-size="24" font-weight="400" transform="translate(-744.409 18.783) scale(1.44647)"><tspan font-family="Oswald" font-size="21.333" fill="#fff">anders</tspan></text>
+    <text xml:space="preserve" x="547" y="75" font-family="Oswald" font-size="24" font-weight="400" transform="translate(-770.445 18.783) scale(1.44647)"><tspan font-family="Oswald" font-size="21.333" fill="#fff">kreativ</tspan></text>
+  </g>
 </svg>
