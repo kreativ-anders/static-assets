@@ -1,4 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald|Merriweather");
+/* oswald-regular - latin */
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('./fonts/oswald-v47-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('./fonts/oswald-v47-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 :root {
   --logo-dimension: 125px;
   --logo-size: 2.25rem;
@@ -77,6 +87,7 @@ body {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   position: relative;
 }
+
 .card:after {
   content: " ";
   position: absolute;
@@ -87,14 +98,17 @@ body {
   bottom: -50px;
   box-shadow: 0 30px 20px rgba(0, 0, 0, 0.3);
 }
+
 .card .card-content {
   margin: auto;
   text-align: center;
   transform-style: preserve-3d;
 }
+
 .card .logo {
   transform: translateZ(var(--logo-holo-space));
 }
+
 .card p {
   transform: translateZ(var(--logo-holo-space));
   display: block;
